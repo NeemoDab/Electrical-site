@@ -1,8 +1,11 @@
-//import logo
+import Mylogo from './logo.png'
+import './Logo.css'
+
 const Logo = () => {
     return(
-        <div></div>
-        // <img src="www.google.com" ></img>
+        <div > 
+             <img className="main-logo" src={Mylogo} alt="Zeus Energy Services Logo" />
+        </div >
     )
     }
     
